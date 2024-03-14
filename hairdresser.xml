@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hairdresser SYSTEM "hairdresser.dtd">
+
+<hairdresser>
+  <visitors>
+    <visitor id='x1'>
+      <name>
+        Denis
+      </name>
+      <hairColor>
+        Белый
+      </hairColor>
+      <service>
+        Мужская стрижка
+      </service>
+    </visitor>
+    <visitor id='x2'>
+      <name>
+        Захар
+      </name>
+      <hairColor>
+        Черный
+      </hairColor>
+      <service>
+        Мужская стрижка
+      </service>
+    </visitor>
+    <visitor id='x3'>
+      <name>
+        Даша
+      </name>
+      <hairColor>
+        Русый
+      </hairColor>
+      <service>
+        Покраска
+      </service>
+    </visitor>
+    <visitor id='x4'>
+      <name>
+        Никита
+      </name>
+      <hairColor>
+        Русый
+      </hairColor>
+      <service>
+        Модельная стрижка
+      </service>
+    </visitor>
+    <visitor id='x5'>
+      <name>
+        Тимур
+      </name>
+      <hairColor>
+        Черный
+      </hairColor>
+      <service>
+        Стрижка
+      </service>
+    </visitor>
+    <visitor id='x6'>
+      <name>
+        Карлеоне
+      </name>
+      <hairColor>
+        Желтый
+      </hairColor>
+      <service>
+        Стрижка бровей
+      </service>
+    </visitor>
+    <visitor id='x7'>
+      <name>
+        Карлсон
+      </name>
+      <hairColor>
+        Коричневый
+      </hairColor>
+      <service>
+        Стрижка бороды
+      </service>
+    </visitor>
+    <visitor id='x8'>
+      <name>
+        Андрей
+      </name>
+      <hairColor>
+        Русый
+      </hairColor>
+      <service>
+        Мужская стрижка
+      </service>
+    </visitor>
+    <visitor id='x9'>
+      <name>
+        Артем
+      </name>
+      <hairColor>
+        Зеленый
+      </hairColor>
+      <service>
+        Стрижка бороды
+      </service>
+    </visitor>
+    <visitor id='x10'>
+      <name>
+        Вика
+      </name>
+      <hairColor>
+        Черный
+      </hairColor>
+      <service>
+        Женская стрижка
+      </service>
+    </visitor>
+    <visitor id='x11'>
+      <name>
+        Карыч
+      </name>
+      <hairColor>
+        Синий
+      </hairColor>
+      <service>
+        Мужская стрижка
+      </service>
+    </visitor>
+    <visitor id='x12'>
+      <name>
+        Джон
+      </name>
+      <hairColor>
+        Розовый
+      </hairColor>
+      <service>
+        Парик
+      </service>
+    </visitor>
+    <visitor id='x13'>
+      <name>
+        Катя
+      </name>
+      <hairColor>
+        Русый
+      </hairColor>
+      <service>
+        Покраска
+      </service>
+    </visitor>
+    <visitor id='x14'>
+      <name>
+        Герман
+      </name>
+      <hairColor>
+        Черный
+      </hairColor>
+      <service>
+        Мужская стрижка
+      </service>
+    </visitor>
+    <visitor id='x15'>
+      <name>
+        Игорь
+      </name>
+      <hairColor>
+        Красный
+      </hairColor>
+      <service>
+        Мужская стрижка
+      </service>
+    </visitor>
+  </visitors>
+  <workers>
+    <worker id='w1'>
+      <name>
+        Ксюша
+      </name>
+      <jobTytle>
+        Парикмахер
+      </jobTytle>
+      <salary>
+        10000
+      </salary>
+    </worker>
+    <worker id='w2'>
+      <name>
+        Андрей
+      </name>
+      <jobTytle>
+        Менеджер
+      </jobTytle>
+      <salary>
+        25000
+      </salary>
+    </worker>
+    <worker id='w3'>
+      <name>
+        Данил
+      </name>
+      <jobTytle>
+        Уборщик
+      </jobTytle>
+      <salary>
+        10000
+      </salary>
+    </worker>
+  </workers>
+  <devices>
+    <device id='d1'>
+      <name>
+        Машинка для стрижки
+      </name>
+      <quantity>
+        25
+      </quantity>
+      <quantityInUse>
+        10
+      </quantityInUse>
+    </device>
+    <device id='d2'>
+      <name>
+        Ножницы
+      </name>
+      <quantity>
+        30
+      </quantity>
+      <quantityInUse>
+        5
+      </quantityInUse>
+    </device>
+    <device id='d3'>
+      <name>
+        Фен
+      </name>
+      <quantity>
+        10
+      </quantity>
+      <quantityInUse>
+        10
+      </quantityInUse>
+    </device>
+  </devices>
+  <services>
+    <servicee id='s1'>
+      <name>
+        Мужская стрижка
+      </name>
+      <price>
+        1000
+      </price>
+      <available>
+        true
+      </available>
+    </servicee>
+    <servicee id='s2'>
+      <name>
+        Женская стрижка
+      </name>
+      <price>
+        1000
+      </price>
+      <available>
+        false
+      </available>
+    </servicee>
+    <servicee id='s3'>
+      <name>
+        Покраска
+      </name>
+      <price>
+        5000
+      </price>
+      <available>
+        true
+      </available>
+    </servicee>
+  </services>
+  <partners>
+    <partner id='p1'>
+      <name>
+        Славда
+      </name>
+      <duration>
+        1 год
+      </duration>
+      <products>
+        Вода
+      </products>
+    </partner>
+    <partner id='p2'>
+      <name>
+        Дайсон
+      </name>
+      <duration>
+        1 месяц
+      </duration>
+      <products>
+        Фен
+      </products>
+    </partner>
+    <partner id='p3'>
+      <name>
+        Купол
+      </name>
+      <duration>
+        5 лет
+      </duration>
+      <products>
+        Ножницы
+      </products>
+    </partner>
+  </partners>
+</hairdresser>

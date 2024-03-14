@@ -1,0 +1,32 @@
+<!ELEMENT hairdresser (visitors, workers, devices, services, partners)>
+
+<!ELEMENT visitors (visitor)+>
+<!ELEMENT visitor (name, hairColor, service)>
+<!ATTLIST visitor id ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT hairColor (#PCDATA)>
+<!ELEMENT service (#PCDATA)>
+
+<!ELEMENT workers (worker)+>
+<!ELEMENT worker (name, jobTytle, salary)>
+<!ATTLIST worker id ID #REQUIRED>
+<!ELEMENT jobTytle (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+
+<!ELEMENT devices (device)+>
+<!ELEMENT device (name, quantity, quantityInUse)>
+<!ATTLIST device id ID #REQUIRED>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT quantityInUse (#PCDATA)>
+
+<!ELEMENT services (servicee)+>
+<!ELEMENT servicee (name, price, available)>
+<!ATTLIST servicee id ID #REQUIRED>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT available (#PCDATA)>
+
+<!ELEMENT partners (partner)+>
+<!ELEMENT partner (name, duration, products)>
+<!ATTLIST partner id ID #REQUIRED>
+<!ELEMENT duration (#PCDATA)>
+<!ELEMENT products (#PCDATA)>
